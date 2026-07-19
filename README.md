@@ -5,7 +5,8 @@ completion".
   If qbittorrent is running a normal user:
   
     1a) Preferably setup qbittorrent categories matching the folders on the 
-        FTP site. Ex: the "iSO" category in qbittorrent would match the "/iSO" folder on the FTP site. 
+        FTP site. Ex: the "iSO" category in qbittorrent would match the 
+        "/iSO" folder on the FTP site. 
      
     2a) Connect to ftp and make a bookmark:
         $ lftp <user>:<pass>@ftpsite.com:<port>
