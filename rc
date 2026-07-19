@@ -1,0 +1,18 @@
+set dns:fatal-timeout never
+set ssl:verify-certificate no
+set ssl:priority +TLS1.2
+set net:timeout 15;
+set net:max-retries 3
+set net:reconnect-interval-multiplier 1
+set net:reconnect-interval-base 5
+set ftp:list-options -a
+set sftp:auto-confirm yes
+set ftp:use-feat true
+set ftp:ssl-allow true
+set ftp:ssl-auth TLS
+set ftp:ssl-protect-data true
+set ftp:ssl-protect-list true
+set xfer:use-temp-file no
+set xfer:clobber off
+set mirror:order "*.sfv *.nfo"
+set mirror:parallel-transfer-count 1
