@@ -1,7 +1,6 @@
 # qbittorrent-lftp-upload
-
-A script to trigger a cross-seed search &upload torrents via using qbittorrents
-"Run external program on completion".
+A script to  trigger a cross-seed search then upload the completed torrent
+via qBittorrent's "Run external program on completion" feature.
 
 If qbittorrent is running a normal user:
 
